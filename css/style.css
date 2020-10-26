@@ -1,0 +1,69 @@
+body,
+li,
+a,
+h1,
+h2,
+p,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: black;
+}
+
+.super-bg {
+  background: black;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.super-bg p {
+  color: white;
+}
+
+.super-bg span {
+  font-weight: bold;
+  background: #666666;
+  padding: 5px;
+}
+
+.header-bg {
+  background: #b07dfb;
+}
+
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 80px;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header-icon a img {
+  max-width: 100px;
+  height: 60px;
+  padding: 15px 10px;
+}
+
+.header-nav li {
+  margin-left: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.header-nav li a {
+  padding: 15px 10px;
+  color: #000000;
+}
